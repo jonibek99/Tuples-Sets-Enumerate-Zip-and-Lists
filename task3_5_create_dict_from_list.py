@@ -6,4 +6,6 @@ def create_dict_from_list(items: list) -> dict:
     Returns:
         dict: Dictionary with indices as keys and items as values
     """
-    return
+    return dict(enumerate(items))
+a=['jonibek',12,'me','you']
+print(create_dict_from_list(a))

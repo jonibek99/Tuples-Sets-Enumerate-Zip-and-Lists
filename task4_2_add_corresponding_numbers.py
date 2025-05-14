@@ -7,4 +7,10 @@ def add_corresponding_numbers(list1: list, list2: list) -> list:
     Returns:
         list: List containing sum of corresponding numbers
     """
-    return
+    a=[]
+    for i,n in zip(list1,list2):
+        a.append((i+n))
+    return a
+s=[1,2,3,4,5]
+d=[1,2,3,4,5]
+print(add_corresponding_numbers(s,d))

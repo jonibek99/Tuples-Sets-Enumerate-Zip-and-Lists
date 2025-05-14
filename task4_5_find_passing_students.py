@@ -8,4 +8,11 @@ def find_passing_students(names: list, scores: list, passing_score: int = 60) ->
     Returns:
         list: List of names of students who passed
     """
-    return
+    l=[]
+    for i,n in zip(names,scores):
+        if n>=60:
+           l.append((i,n))
+    return l
+a=['jonibek','otabek','sardor']
+b=[10,99,72]
+print(find_passing_students(a,b))

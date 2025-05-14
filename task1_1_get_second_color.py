@@ -6,4 +6,6 @@ def get_second_color(colors: tuple) -> str:
     Returns:
         str: The second color in the tuple
     """
-    return
+    return colors[1]
+a='yashil','qizil','kok'
+print(get_second_color(a))

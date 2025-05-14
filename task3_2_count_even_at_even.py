@@ -6,4 +6,3 @@ def count_even_at_even(numbers: list) -> int:
     Returns:
         int: Count of even numbers at even indexes
     """
-    return

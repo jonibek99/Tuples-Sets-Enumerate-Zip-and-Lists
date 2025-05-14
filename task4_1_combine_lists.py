@@ -7,4 +7,7 @@ def combine_lists(list1: list, list2: list) -> list:
     Returns:
         list: List of tuples containing paired items from both lists
     """
-    return
+    return list(zip(list1,list2))
+a=[1,2,3,4,4]
+b=[1,32,312]
+print(combine_lists(a,b))

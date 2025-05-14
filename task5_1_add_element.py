@@ -7,4 +7,7 @@ def add_element(lst: list, element: any) -> list:
     Returns:
         list: List with the new element added
     """
-    return
+    lst.append('king')
+    return lst
+a=['i','am']
+print(add_element(a,'king'))
